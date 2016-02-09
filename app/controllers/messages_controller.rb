@@ -14,4 +14,9 @@ class MessagesController < ApplicationController
 			render :index
 		end
 	end
+
+	def destroy
+		
+	end
+
 end

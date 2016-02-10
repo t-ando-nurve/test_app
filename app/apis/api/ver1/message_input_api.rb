@@ -21,8 +21,8 @@ module API
         # POST /api/v1/message/
         desc 'Create a Message.'
         params do
-          requires :title , type: String, desc: 'Message title.'
-          requires :body , type: String, desc: 'Message body.'
+          requires :title , type: String , desc: 'Message title.'
+          requires :body , type: String , desc: 'Message body.'
         end
         post do
           Message.create!({

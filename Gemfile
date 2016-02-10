@@ -35,9 +35,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'grape', '~> 0.6.1'
-gem 'grape-entity', '~> 0.4.0'
-gem 'grape-swagger', '~> 0.7.2'
+gem 'grape'
+gem 'grape-entity'
+gem 'grape-swagger'
 gem 'grape-swagger-rails'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
